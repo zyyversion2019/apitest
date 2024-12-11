@@ -1,0 +1,5 @@
+INFO     root:conftest.py:12 初始化完成
+INFO     root:allure_init.py:14 1登录登录成功
+INFO     root:test_runner.py:35 {'method': 'get', 'url': 'http://192.168.10.131:8888/api/private/v1/login', 'params': None, 'data': {'username': 'admin', 'password': '123456'}, 'files': None, 'headers': None}
+INFO     root:test_runner.py:39 返回的json是{'data': {'id': 500, 'rid': 0, 'username': 'admin', 'mobile': '12345678', 'email': 'adsfad@qq.com', 'token': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE3MzM5MDE0MzYsImV4cCI6MTczMzk4NzgzNn0.KGXimKpstysDzKdZo6hmOo5tu1etIowC_V6E4YqXd3o'}, 'meta': {'msg': '登录成功', 'status': 200}}
+INFO     root:assert_utils.py:20 select mg_name from sp_manager where mg_name='admin'

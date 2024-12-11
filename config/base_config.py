@@ -1,0 +1,11 @@
+# author zyy
+# time 2024/12/10 15:40
+
+BASE_URL="http://192.168.10.131:8888/api/private/v1"
+
+DB_HOST="192.168.10.131"
+DB_PORT=3306
+DB_DATABASE="mydb"
+DB_USER="root"
+DB_PASSWORD="123456"
+DB_CHARSET="utf8"
